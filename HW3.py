@@ -89,7 +89,7 @@ currency_convertor = item_2
 # 31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
 if currency_convertor:
     currency_usd = usd_item
-    target_currency = eur_item
+    target_currency = input('Введите валюту из представленных: usd, eur, uah, rub, byn, chf >>')
     target_currency_amount = 50
     currency_result = 0
     if target_currency == 'eur':
