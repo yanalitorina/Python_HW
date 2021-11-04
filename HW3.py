@@ -94,22 +94,22 @@ if currency_convertor:
     currency_result = 0
     if target_currency == 'eur':
         currency_result = target_currency_amount / usd_eur_rate
-        print(target_currency_amount, eur_item, "=", currency_result, usd_item)
+        print(target_currency_amount, eur_item, "=", "%.2f" % currency_result, usd_item)
     elif target_currency == 'uah':
         currency_result = target_currency_amount / usd_uah_rate
-        print(target_currency_amount, uah_item, "=", currency_result, usd_item)
+        print(target_currency_amount, uah_item, "=", "%.2f" % currency_result, usd_item)
     elif target_currency == 'usd':
         currency_result = target_currency_amount / usd_usd_rate
-        print(target_currency_amount, usd_item, "=", currency_result, usd_item)
+        print(target_currency_amount, usd_item, "=", "%.2f" % currency_result, usd_item)
     elif target_currency == 'chf':
         currency_result = target_currency_amount / usd_chf_rate
-        print(target_currency_amount, chf_item, "=", currency_result, usd_item)
+        print(target_currency_amount, chf_item, "=", "%.2f" % currency_result, usd_item)
     elif target_currency == 'rub':
         currency_result = target_currency_amount / usd_rub_rate
-        print(target_currency_amount, rub_item, "=", currency_result, usd_item)
+        print(target_currency_amount, rub_item, "=", "%.2f" % currency_result, usd_item)
     elif target_currency == 'byn':
         currency_result = target_currency_amount / usd_byn_rate
-        print(target_currency_amount, byn_item, "=", currency_result, usd_item)
+        print(target_currency_amount, byn_item, "=", "%.2f" % currency_result, usd_item)
 
     else:
         print("Unknow currency")
